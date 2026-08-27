@@ -28,12 +28,14 @@
 5. **방법론 리서치 실행**: 위 3단계를 "구체적·과학적·논리적으로" 뒷받침할 기존 방법론을 Advanced Research로 조사 → knowledge.md에 원본 보존, 사용자에게 쉬운 브리핑 제공 완료.
 6. **프로젝트 영속화 시도(현재 단계)**: 이 대화의 산출물을 GitHub에 파일로 올리고 다른 에이전트와 연동하고 싶다는 요청 → Claude는 GitHub 쓰기 권한/커넥터가 없어 직접 업로드는 불가, 대신 4개 파일(knowledge.md, goal.md, directory.md, lessons.md)을 로컬에 생성해 제공하는 방식으로 대응 중.
 7. **저장소 업로드 완료**: 위 5개 파일(README.md, goal.md, directory.md, lessons.md, knowledge.md)을 `leejy9/Portfolio` 저장소의 `career-project/` 디렉터리에 업로드함(브랜치: `claude/markdown-file-upload-w7ecvl`). 이제 새 세션/에이전트는 이 저장소 링크만 있으면 5개 파일에 접근 가능.
+8. **Stage 0 착수 — Workview/Lifeview 초안 완성 (2026-08-27)**: 사용자가 직접 작성한 Workview/Lifeview 원문을 정리해 `career-project/workview-lifeview.md`에 저장. DYL 방법론에 따라 coherence(부족한 부분을 채워주는 존재, 구조를 보는 눈, 인정 욕구)와 friction(돈/안정에 대한 관점)을 분석. 후속 대화에서 사용자가 재무 목표를 "부자되기"가 아닌 "가난하지 않기"(문턱형 기준)로 명확화 — lessons.md에 기록, Workview 문서에도 반영함. Good Time Journal은 "고정 출근이 없다"는 사용자 상황에 맞춰 활동 기반 기록으로 전환하기로 하고 다음 단계로 보류.
+9. **작업 방식 확정 (2026-08-27)**: 사용자가 이 프로젝트 관련 파일 변경은 대화 중 확정되는 대로 즉시 GitHub main에 반영(브랜치 커밋 → PR → merge)하라고 명시. 이후 에이전트는 "업데이트해줘"라는 명시적 요청을 기다리지 않고, 실질적 변경(문서 확정·신규 산출물)이 생길 때마다 자동으로 반영할 것.
 
 ## 2. 아직 해결되지 않은 질문 (다음 에이전트/다음 대화에서 이어갈 것)
 - [ ] 1번(강자독식 안정 산업) vs 2번(새 판/창업) 중 실제로 병행 탐색할지, 하나로 좁힐지 — 사용자 미답변
 - [ ] 희망직무 1/2/3 중 다음 지원 사이클의 주력 하나 — 사용자 미답변
 - [ ] 희망직무2(소비자 행동 통찰) 관련, 리서치가 실제 상품/서비스 설계로 이어진 구체 사례 존재 여부 — 사용자 미답변
-- [ ] Stage 0(Good Time Journal, Workview/Lifeview) 실행 여부 및 결과 — 아직 시작 전
+- [x] Stage 0 중 Workview/Lifeview — 2026-08-27 초안 완성(`career-project/workview-lifeview.md`). Good Time Journal은 아직 미착수(활동 기반 기록으로 시작 예정)
 - [ ] Career Anchors 40문항 진단 실시 여부 — 아직 시작 전
 - [ ] 가중 의사결정 매트릭스에 넣을 실제 후보 리스트(기업/직무) 확정 — 아직 시작 전
 
